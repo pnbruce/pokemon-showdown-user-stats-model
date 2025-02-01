@@ -1,0 +1,9 @@
+[package]
+license = "MIT"
+name = "pokemon-showdown-user-stats-model"
+version = "0.1.0"
+edition = "2021"
+description = "model for users on pokemonshowdown"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
