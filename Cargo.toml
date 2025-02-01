@@ -4,6 +4,8 @@ name = "pokemon-showdown-user-stats-model"
 version = "0.1.0"
 edition = "2021"
 description = "model for users on pokemonshowdown"
+repository = "https://github.com/pnbruce/pokemon-showdown-user-stats-model"
+
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
