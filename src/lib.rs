@@ -4,7 +4,7 @@ use serde::{Deserialize, Serialize};
 #[derive(Debug, Deserialize, Serialize)]
 pub struct Rating {
     pub time: u64,
-    pub elo: u64,
+    pub elo: i64,
 }
 
 #[derive(Debug, Deserialize, Serialize)]
